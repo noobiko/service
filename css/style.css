@@ -1,11 +1,22 @@
 @font-face {
-    font-family: Arial;
-}
+    font-family: Proxima Nova Rg; 
+    src: url("fonts/Proxima Nova Regular.otf"); 
+   }
+   @font-face {
+    font-family: Uni Sans Thin CAPS; 
+    src: url("fonts/UniSansThinCAPS.otf"); 
+   }
+   body {
+       font-family: Proxima Nova Rg;
+   }
+#logo {
+       font-family: Uni Sans Thin CAPS;
+   }
 .col1 {
     margin-left: 10%;
 }
 .col2 {
-    margin-right: 16%;
+    margin-right: 12%;
 }
 @media (max-width: 480px) {
   .vs-xs {
@@ -45,4 +56,7 @@
         width: 18.5%;
         display: block;
     }
+}
+.fa-bars {
+    color: #398439;
 }
