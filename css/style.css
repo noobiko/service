@@ -3,16 +3,16 @@
     src: url("fonts/Proxima Nova Regular.otf"); 
    }
    @font-face {
-    font-family: Uni Sans Thin CAPS; 
+    font-family: UniSansThinCaps; 
     src: url("fonts/UniSansThinCAPS.otf"); 
    }
    body {
        font-family: Proxima Nova Rg;
-       padding-top: 50px;
+       padding-top: 75px;
        font-size: 14pt;
    }
-#logo {
-       font-family: Uni Sans Thin CAPS;
+.logo {
+       font-family: UniSansThinCaps;
        font-size: 24pt;
    }
 .col1 {
@@ -62,4 +62,8 @@
 }
 .fa-bars {
     color: #398439;
+}
+.mar {
+
+    padding: 0;
 }
