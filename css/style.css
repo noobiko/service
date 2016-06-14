@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Arial;
+}
+.col1 {
+    margin-left: 10%;
+}
+.col2 {
+    margin-right: 16%;
+}
+@media (max-width: 480px) {
+  .vs-xs {
+    display: block;
+  }
+  .vs-xxs {
+      display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 991px) {
+    .vs-sm {
+        display: none;
+    }
+    .col-md-8 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+    .vs-md {
+        display: none;
+    }
+    .col-md-8 {
+        width: 81.5%;
+    }
+    .col-md-2 {
+        width: 18.5%;
+    }
+}
+@media (min-width: 1025px) {
+    .vs-lg {
+        display: none;
+    }
+    .col-md-8 {
+    width: 63%;
+    }
+    .col-md-2 {
+        width: 18.5%;
+        display: block;
+    }
+}
