@@ -8,12 +8,15 @@
    }
    body {
        font-family: Proxima Nova Rg;
+       padding-top: 50px;
+       font-size: 14pt;
    }
 #logo {
        font-family: Uni Sans Thin CAPS;
+       font-size: 24pt;
    }
 .col1 {
-    margin-left: 10%;
+    margin-left: 19%;
 }
 .col2 {
     margin-right: 12%;
