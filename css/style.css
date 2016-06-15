@@ -1,10 +1,10 @@
 @font-face {
     font-family: Proxima Nova Rg; 
-    src: url("fonts/Proxima Nova Regular.otf"); 
+    src: url("../fonts/Proxima Nova Regular.otf"); 
    }
    @font-face {
     font-family: UniSansThinCaps; 
-    src: url("fonts/UniSansThinCAPS.otf"); 
+    src: url("../fonts/UniSansThinCAPS.otf"); 
    }
    body {
        font-family: Proxima Nova Rg;
