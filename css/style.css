@@ -16,7 +16,7 @@
        font-size: 24pt;
    }
 .col1 {
-    margin-left: 19%;
+    margin-left: 12%;
 }
 .col2 {
     margin-right: 12%;
@@ -66,4 +66,8 @@
 .mar {
 
     padding: 0;
+}
+.icon {
+    padding-top: 5px;
+    padding-bottom: px;
 }
