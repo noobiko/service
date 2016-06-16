@@ -16,10 +16,10 @@
        font-size: 24pt;
    }
 .col1 {
-    margin-left: 12%;
+    margin-left: 19%;
 }
 .col2 {
-    margin-right: 12%;
+    margin-right: 16%;
 }
 @media (max-width: 480px) {
   .vs-xs {
@@ -69,5 +69,10 @@
 }
 .icon {
     padding-top: 5px;
-    padding-bottom: px;
+}
+.banner_left {
+     padding-left: 0;
+}
+.banner_right {
+    padding-right: 0;
 }
