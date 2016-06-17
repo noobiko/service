@@ -16,7 +16,7 @@
        font-size: 24pt;
    }
 .col1 {
-    margin-left: 19%;
+    margin-left: 17%;
 }
 .col2 {
     margin-right: 16%;
@@ -67,12 +67,17 @@
 
     padding: 0;
 }
-.icon {
-    padding-top: 5px;
-}
 .banner_left {
      padding-left: 0;
 }
 .banner_right {
     padding-right: 0;
+}
+
+
+.navbar-nav > li > .dropdown-menu {border-top:none;background-color:white;} /* цвет лучше под фон или тон фона body */
+.dropdown-menu {display:block !important;visibility:hidden;opacity:0;transition:visibility .3s,opacity .3s,top .4s;top:200%;}
+.open > .dropdown-menu {visibility:visible;opacity:1;transition:visibility .3s,opacity .3s,top .4s;top:calc(100% + 1px);}
+@media (max-width:767px) { /* у меня респонсив-меню появляется только здесь */
+  .dropdown-menu {transition:none;}
 }
