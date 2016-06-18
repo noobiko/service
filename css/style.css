@@ -1,13 +1,13 @@
 @font-face {
     font-family: Proxima Nova Rg; 
-    src: url("../fonts/Proxima Nova Regular.otf"); 
+    src: url("../fonts/Proxima Nova Light.otf"); 
    }
    @font-face {
     font-family: UniSansThinCaps; 
     src: url("../fonts/UniSansThinCAPS.otf"); 
    }
    body {
-       font-family: Proxima Nova Rg;
+       font-family: Proxima Nova Lt;
        padding-top: 75px;
        font-size: 14pt;
    }
@@ -16,10 +16,10 @@
        font-size: 24pt;
    }
 .col1 {
-    margin-left: 17%;
+    margin-left: 12%;
 }
 .col2 {
-    margin-right: 16%;
+    margin-right: 12%;
 }
 @media (max-width: 480px) {
   .vs-xs {
@@ -73,11 +73,21 @@
 .banner_right {
     padding-right: 0;
 }
-
-
-.navbar-nav > li > .dropdown-menu {border-top:none;background-color:white;} /* цвет лучше под фон или тон фона body */
-.dropdown-menu {display:block !important;visibility:hidden;opacity:0;transition:visibility .3s,opacity .3s,top .4s;top:200%;}
-.open > .dropdown-menu {visibility:visible;opacity:1;transition:visibility .3s,opacity .3s,top .4s;top:calc(100% + 1px);}
-@media (max-width:767px) { /* у меня респонсив-меню появляется только здесь */
-  .dropdown-menu {transition:none;}
+.navbar-nav > li > .dropdown-menu {
+    border-top:none;
+    background-color:white;
+} 
+.dropdown-menu {
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility .3s,opacity .3s,top .4s;
+    top:200%;
 }
+.open > .dropdown-menu {
+    visibility:visible;
+    opacity:1;
+    transition:visibility .3s,opacity .3s,top .4s;
+    top:calc(100% + 1px);
+}
+  .dropdown-menu {transition:none;} 
