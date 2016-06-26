@@ -29,6 +29,15 @@
       display: none;
   }
 }
+@media (min-width: 481px) {
+    .sm {
+        display: none;
+    }
+    .bn {
+        width: 184px;
+    }
+}
+/*
 @media (min-width: 481px) and (max-width: 991px) {
     .vs-sm {
         display: none;
@@ -60,6 +69,7 @@
         display: block;
     }
 }
+*/
 .fa-bars {
     color: #398439;
 }

@@ -2362,8 +2362,3 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-
-$(window).on("scroll", function() {
-    if ($(window).scrollTop() > 50) $('.navbar').addClass('navbar-inverse');
-          else $('.navbar').removeClass('navbar-inverse');
-    });
